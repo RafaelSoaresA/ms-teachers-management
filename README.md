@@ -24,7 +24,7 @@ Este projeto é um sistema de gerenciamento de professores desenvolvido em Java 
 - Java 22
 - Maven 3.6+
 - Docker (opcional, para executar o Kafka)
-- SoapUI (para mocks de `instructors`)
+- SoapUI (para mocks de `instructors`, localizados dentro do swagger)
 
 
 ## Configuração
@@ -52,6 +52,7 @@ Este projeto é um sistema de gerenciamento de professores desenvolvido em Java 
 
 - Porta padrão: 8080
 - Documentação da API: /swagger-ui.html (os arquivos swagger estão localizados no projeto Ms Teachers Management)
+- Porta para o SoapUI: 8089
 
 
 ## Mock de instructors com SoapUI
