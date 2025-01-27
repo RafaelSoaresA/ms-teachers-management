@@ -51,7 +51,7 @@ Este projeto é um sistema de gerenciamento de professores desenvolvido em Java 
 ## Configurações Adicionais
 
 - Porta padrão: 8080
-- Documentação da API: /swagger-ui.html
+- Documentação da API: /swagger-ui.html (os arquivos swagger estão localizados no projeto Ms Teachers Management)
 
 
 ## Mock de instructors com SoapUI
