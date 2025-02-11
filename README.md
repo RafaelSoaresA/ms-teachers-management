@@ -64,3 +64,7 @@ Este projeto é um sistema de gerenciamento de professores desenvolvido em Java 
 - Inicie o MockService no SoapUI antes de executar os testes ou a aplicação.
 
 
+## OBSERVAÇÃO
+
+O projeto é baseado na arquitetura Vexa, que origina da hexagonal, com algumas peculiaridades da própria arquitetura.
+
