@@ -70,3 +70,5 @@ Este projeto é um sistema de gerenciamento de professores desenvolvido em Java 
 
 O projeto é baseado na arquitetura Vexa, que origina da hexagonal, com algumas peculiaridades da própria arquitetura.
 
+Outro ponto importante: As requisições são baseadas nos dados passados no mock, configurados pela ferramenta de escolha pessoal. 
+Ou seja, para todas as requisições, é necessário passar o response em json, encontrado no swagger de instructor.
