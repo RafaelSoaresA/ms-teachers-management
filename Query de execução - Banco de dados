@@ -1,0 +1,23 @@
+DROP TABLE IF EXISTS Salary;
+DROP TABLE IF EXISTS Subject;
+DROP TABLE IF EXISTS Teacher;
+
+CREATE TABLE subject (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE salary (
+    id SERIAL PRIMARY KEY,
+    amount FLOAT,
+    currency VARCHAR(50)
+);
+CREATE TABLE teacher (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    subject_id INTEGER REFERENCES subject(id),
+    salary_id INTEGER REFERENCES salary(id)
+);
+
+CREATE INDEX idx_teacher_subject ON teacher(subject_id);
+CREATE INDEX idx_teacher_salary ON teacher(salary_id);
