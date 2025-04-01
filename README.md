@@ -48,6 +48,8 @@ Este projeto é um sistema de gerenciamento de professores desenvolvido em Java 
 - GET /teachers: Lista todos os professores.
 - GET /teachers/{id}: Consulta um professor pelo ID.
 - POST /teachers: Cria um novo professor.
+- PUT /teachers/{id}: Atualiza um professor pelo ID.
+- DELETE /teachers/{id}: Deleta um professor pelo ID.
 
 
 ## Configurações Adicionais
