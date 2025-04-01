@@ -12,6 +12,7 @@ Este projeto é um sistema de gerenciamento de professores desenvolvido em Java 
 - ModelMapper
 - Kafka
 - SoapUI
+- PostgreSQL
 
 ## Estrutura do Projeto
 
@@ -25,6 +26,7 @@ Este projeto é um sistema de gerenciamento de professores desenvolvido em Java 
 - Maven 3.6+
 - Docker (opcional, para executar o Kafka)
 - SoapUI (para mocks de `instructors`, localizados dentro do swagger)
+- Dbeaver (probabilidade para usar o PostgreSQL)
 
 
 ## Configuração
