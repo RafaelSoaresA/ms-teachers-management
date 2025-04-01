@@ -72,3 +72,4 @@ O projeto é baseado na arquitetura Vexa, que origina da hexagonal, com algumas 
 
 Outro ponto importante: As requisições são baseadas nos dados passados no mock, configurados pela ferramenta de escolha pessoal. 
 Ou seja, para todas as requisições, é necessário passar o response em json, encontrado no swagger de instructor.
+Os dados de post, put e delete atualizam o banco de dados, também conforme o mock.
